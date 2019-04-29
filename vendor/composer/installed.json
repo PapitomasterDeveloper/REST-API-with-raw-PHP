@@ -1,0 +1,41 @@
+[
+    {
+        "name": "dprevite/lint",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dprevite/lint.git",
+            "reference": "7ff809333fa3917538c66024c90e987c1287be68"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dprevite/lint/zipball/7ff809333fa3917538c66024c90e987c1287be68",
+            "reference": "7ff809333fa3917538c66024c90e987c1287be68",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.2"
+        },
+        "time": "2014-03-20 03:52:32",
+        "bin": [
+            "scripts/lint"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dan Previte"
+            }
+        ],
+        "description": "Lint scans your code for PHP syntax errors.",
+        "homepage": "http://github.com/dprevite/lint",
+        "keywords": [
+            "lint"
+        ]
+    }
+]

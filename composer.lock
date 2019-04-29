@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "2a146961970971235ba74aae3011f726",
+    "content-hash": "b2dd3839b24ec2b292cdef78908142e6",
+    "packages": [
+        {
+            "name": "dprevite/lint",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dprevite/lint.git",
+                "reference": "7ff809333fa3917538c66024c90e987c1287be68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dprevite/lint/zipball/7ff809333fa3917538c66024c90e987c1287be68",
+                "reference": "7ff809333fa3917538c66024c90e987c1287be68",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1.2"
+            },
+            "bin": [
+                "scripts/lint"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dan Previte"
+                }
+            ],
+            "description": "Lint scans your code for PHP syntax errors.",
+            "homepage": "http://github.com/dprevite/lint",
+            "keywords": [
+                "lint"
+            ],
+            "time": "2014-03-20 03:52:32"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
